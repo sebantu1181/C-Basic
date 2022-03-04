@@ -1,12 +1,17 @@
 # C-Basic
-Challenge: C# Basics 
+Challenge: C# Basics
+
 Description: Write a C# console application using .NET Core that utilizes constants, variables, data types, operators, expressions, statements, blocks, and control flow.  
+
 Purpose: This application provides experience in working with basic language features of C#. It is important when working with a new language to understand how it handles its constants, variables, data types, operators, expressions, statements, blocks, and control flow. A good thing to always do with a new language is to build test applications where you experiment with these language features to make sure you understand how they work.  
+
 Requirements:  
 Project Name: Csharp Basics 
 Target Platform: Console Application 
 Programming Language: C#  
-Write the code necessary to do the following inside the Main function of the C# program. 
+
+Write the code necessary to do the following inside the Main function of the C# program.
+
 Declare the following constants and variables and set their initial values as indicated.  
 Declare a constant of type byte named sample1 with an initial value of 0x3A  
 Declare a variable of type byte named sample2 with an initial value of 58  
@@ -21,13 +26,17 @@ Declare a variable int named choice with an initial value of 2
 Declare a constant of type char named integral that has a value of \u222B  
 Create a constant String named greeting that has an initial value of “Hello”  
 Create a variable String named name that has an initial value of “Karen”  
+
 Using the constants and variables declared and initialized based on the above, do the following. Where is says “display” it means output a line to standard out. Each displayed item is to be on a separate line.  
 Compare sample1 to sample2 and if they are equal display “The samples are equal.” otherwise display “The samples are not equal.”  
+
 If heartRate is greater than equal to 40 and less than equal to 80 display “Heart rate is normal.” otherwise display “Heart rate is not normal.”  
 If deposits is greater than or equal to 100000000 display “You are exceedingly wealthy.” otherwise display “Sorry you are so poor.”  
+
 Declare a variable called force that is assigned to the mass times the acceleration. The force variable must be of the same type as the type that results from the multiplication of mass and acceleration.  
 Display the calculated force preceded by the string “force = ”. The output should look like the following (actual value will be different): force = 2.345  
 Display the value of distance followed by “ is the distance.”  
+
 Using lost and expensive display “I am really sorry! I will get the manager.” if lost and expensive are both true and “Here is coupon for 10% off.” if lost is true and expensive is false.  
 Use switch/case and the variable choice to display “You chose 1.” if choice is 1, “You chose 2.” if choice is 2, “You chose 3.” if choice is 3, and “You made an unknown choice.” if choice is something other than 1, 2, or 3.  
 Using the char constant integral, display the character in integral followed by the string “ is an integral.”  
